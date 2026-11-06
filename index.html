@@ -1,43 +1,681 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071d2b">
-<title>Mandaadi Seafoods | Today's Fresh Catch</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071d2b">
+
+  <title>Mandaadi Seafoods | Today's Fresh Catch</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Explore Mandaadi Seafoods' daily fresh fish selection, availability and prices. Send your order enquiry through WhatsApp.">
+  <meta name="keywords" content="Mandaadi Seafoods, fresh fish, seafood, fish delivery, Chennai seafood, Bangalore seafood">
+  <meta name="robots" content="index, follow">
+
+  <!-- Social Media Preview -->
+  <meta property="og:title" content="Mandaadi Seafoods | Today's Fresh Catch">
+  <meta property="og:description" content="Discover fresh fish, check daily availability and enquire through WhatsApp.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<div class="announcement">🐟 FRESH CATCH, EVERY DAY <span>Serving Chennai & Bangalore</span><a href="https://wa.me/919972426009">Order assistance: +91 99724 26009 ↗</a></div>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="announcement">
+  🐟 FRESH CATCH, EVERY DAY
+  <span>Serving Chennai & Bangalore</span>
+
+  <a href="https://wa.me/919972426009" target="_blank" rel="noopener">
+    Order assistance: +91 99724 26009 ↗
+  </a>
+</div>
+
+<!-- HEADER -->
 <header class="header">
-  <a class="brand" href="#"><b class="logo">M</b><span><strong>MANDAADI</strong><small>FRESH SEAFOODS</small></span></a>
-  <nav><a href="#fish">Shop fish</a><a href="#departments">Fish collection</a><a href="#delivery">Delivery</a><a href="#contact">Contact</a></nav>
-  <div class="head-actions"><button class="admin-link" id="adminOpen">Admin ↗</button><button class="bag" id="bagOpen">🛍 Bag <b id="bagCount">0</b></button></div>
+
+  <a class="brand" href="#" aria-label="Mandaadi Seafoods home">
+    <b class="logo">M</b>
+
+    <span>
+      <strong>MANDAADI</strong>
+      <small>FRESH SEAFOODS</small>
+    </span>
+  </a>
+
+  <nav aria-label="Main navigation">
+    <a href="#fish">Shop fish</a>
+    <a href="#departments">Fish collection</a>
+    <a href="#delivery">Delivery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="head-actions">
+
+    <button class="admin-link" id="adminOpen">
+      Admin ↗
+    </button>
+
+    <button class="bag" id="bagOpen" aria-label="Open shopping bag">
+      🛍 Bag <b id="bagCount">0</b>
+    </button>
+
+  </div>
 </header>
+
 <main>
+
+<!-- HERO SECTION -->
 <section class="hero">
-  <div class="hero-copy"><div class="kicker">THE MANDAADI DAILY CATCH</div><h1>Fresh from<br>the sea. <em>To you.</em></h1>
-  <p>Discover quality fish selected with care. Explore today's availability, choose your favourites and send your order enquiry in just a few clicks.</p>
-  <div class="hero-actions"><a class="btn" href="#fish">Shop today's catch <span>↗</span></a><a class="hero-link" href="#departments">Explore collection →</a></div>
-  <div class="hero-trust"><span>✦ Daily availability updates</span><span>✦ Direct order assistance</span></div></div>
-  <div class="hero-image"><div class="hero-label"><small>FRESHNESS YOU LOVE</small><strong>THE<br>DAY'S<br>CATCH</strong><span>✦ MANDAADI SEAFOODS</span></div><div class="hero-image-caption">FRESH • QUALITY • AUTHENTIC</div></div>
+
+  <div class="hero-copy">
+
+    <div class="kicker">
+      THE MANDAADI DAILY CATCH
+    </div>
+
+    <h1>
+      Fresh from<br>
+      the sea. <em>To you.</em>
+    </h1>
+
+    <p>
+      Discover quality fish selected with care.
+      Explore today's availability, choose your favourites
+      and send your order enquiry in just a few clicks.
+    </p>
+
+    <div class="hero-actions">
+
+      <a class="btn" href="#fish">
+        Shop today's catch <span>↗</span>
+      </a>
+
+      <a class="hero-link" href="#departments">
+        Explore collection →
+      </a>
+
+    </div>
+
+    <div class="hero-trust">
+      <span>✦ Daily availability updates</span>
+      <span>✦ Direct order assistance</span>
+    </div>
+
+  </div>
+
+  <div class="hero-image">
+
+    <div class="hero-label">
+      <small>FRESHNESS YOU LOVE</small>
+
+      <strong>
+        THE<br>
+        DAY'S<br>
+        CATCH
+      </strong>
+
+      <span>✦ MANDAADI SEAFOODS</span>
+    </div>
+
+    <div class="hero-image-caption">
+      FRESH • QUALITY • AUTHENTIC
+    </div>
+
+  </div>
+
 </section>
-<section class="benefits"><div><i>♧</i><span><b>Fresh selection</b><small>Fish listed by the team</small></span></div><div><i>◉</i><span><b>Daily availability</b><small>Live stock status</small></span></div><div><i>⌁</i><span><b>Easy ordering</b><small>Quick WhatsApp enquiry</small></span></div><div><i>➜</i><span><b>Delivery support</b><small>Chennai & Bangalore</small></span></div></section>
-<section class="departments section" id="departments"><div class="section-title"><div><div class="kicker dark">EXPLORE MANDAADI</div><h2>Shop by <em>collection.</em></h2></div><p>Browse the fish collection and see what's available today.</p></div>
-<div class="department-grid">
-  <a href="#fish" class="department-card"><img src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?auto=format&fit=crop&w=700&q=80"><span><b>Popular Fish</b><small>Customer favourites</small></span><i>↗</i></a>
-  <a href="#fish" class="department-card"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80"><span><b>Today's Catch</b><small>Freshly listed selection</small></span><i>↗</i></a>
-  <a href="#fish" class="department-card"><img src="https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?auto=format&fit=crop&w=700&q=80"><span><b>Premium Fish</b><small>Explore the selection</small></span><i>↗</i></a>
-</div></section>
-<section class="section catalog" id="fish"><div class="section-title"><div><div class="kicker dark">FRESH PICKS FOR YOU</div><h2>Most <em>popular.</em></h2><p class="subtitle">Browse available fish, check the price per kg and add your selection to the bag.</p></div><a href="#fish" class="view-all">View all fish ↗</a></div>
-<div class="filters"><div class="pills" id="filters"><button class="selected" data-filter="all">All fish</button><button data-filter="available">Available now</button><button data-filter="unavailable">Unavailable</button></div><input id="search" placeholder="⌕  Search fish..." type="search"></div>
-<div class="fish-grid" id="fishGrid"></div><p class="fineprint">Availability and prices may change during the day. An order enquiry is not a confirmed order. Our team will confirm stock, final price and delivery details.</p></section>
-<section class="special"><div class="special-photo"></div><div class="special-copy"><div class="kicker">FRESHNESS, EVERY DAY</div><h2>Know what's fresh.<br><em>Order with confidence.</em></h2><p>Our daily fish list makes it easier to check what's in stock before you place an enquiry. Unavailable fish remain visible so you can see the full selection.</p><a href="#fish" class="btn">Check today's availability ↗</a></div></section>
-<section class="delivery section" id="delivery"><div class="delivery-icon">⌖</div><div><div class="kicker dark">DELIVERY SUPPORT</div><h2>Chennai <em>&</em> Bangalore</h2><p>Contact the Mandaadi team to confirm delivery coverage, available slots and today's fish selection.</p></div><a class="outline-btn" href="https://wa.me/919972426009">Check delivery ↗</a></section>
-<section class="contact" id="contact"><div><div class="kicker">MANDAADI SEAFOODS</div><h2>Freshness you <em>love.</em></h2><p>Have a question about today's catch? Our team is ready to help.</p></div><div><a class="btn" href="https://wa.me/919972426009">Chat on WhatsApp ↗</a><small>+91 99724 26009</small></div></section>
+
+<!-- BENEFITS -->
+<section class="benefits">
+
+  <div>
+    <i>♧</i>
+    <span>
+      <b>Fresh selection</b>
+      <small>Fish listed by the team</small>
+    </span>
+  </div>
+
+  <div>
+    <i>◉</i>
+    <span>
+      <b>Daily availability</b>
+      <small>Daily stock updates</small>
+    </span>
+  </div>
+
+  <div>
+    <i>⌁</i>
+    <span>
+      <b>Easy ordering</b>
+      <small>Quick WhatsApp enquiry</small>
+    </span>
+  </div>
+
+  <div>
+    <i>➜</i>
+    <span>
+      <b>Delivery support</b>
+      <small>Chennai & Bangalore</small>
+    </span>
+  </div>
+
+</section>
+
+<!-- FISH COLLECTION -->
+<section class="departments section" id="departments">
+
+  <div class="section-title">
+
+    <div>
+      <div class="kicker dark">
+        EXPLORE MANDAADI
+      </div>
+
+      <h2>
+        Shop by <em>collection.</em>
+      </h2>
+    </div>
+
+    <p>
+      Browse the fish collection and see what's available today.
+    </p>
+
+  </div>
+
+  <div class="department-grid">
+
+    <a href="#fish" class="department-card">
+
+      <img
+        src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?auto=format&fit=crop&w=700&q=85"
+        alt="Fresh seafood selection"
+        loading="lazy">
+
+      <span>
+        <b>Popular Fish</b>
+        <small>Customer favourites</small>
+      </span>
+
+      <i>↗</i>
+
+    </a>
+
+    <a href="#fish" class="department-card">
+
+      <img
+        src="https://images.pexels.com/photos/8351892/pexels-photo-8351892.jpeg?auto=compress&cs=tinysrgb&w=900"
+        alt="Fresh red snapper"
+        loading="lazy">
+
+      <span>
+        <b>Today's Catch</b>
+        <small>Freshly listed selection</small>
+      </span>
+
+      <i>↗</i>
+
+    </a>
+
+    <a href="#fish" class="department-card">
+
+      <img
+        src="https://images.pexels.com/photos/36122228/pexels-photo-36122228.jpeg?auto=compress&cs=tinysrgb&w=900"
+        alt="Fresh sardines"
+        loading="lazy">
+
+      <span>
+        <b>Premium Fish</b>
+        <small>Explore the selection</small>
+      </span>
+
+      <i>↗</i>
+
+    </a>
+
+  </div>
+
+</section>
+
+<!-- FISH CATALOGUE -->
+<section class="section catalog" id="fish">
+
+  <div class="section-title">
+
+    <div>
+
+      <div class="kicker dark">
+        FRESH PICKS FOR YOU
+      </div>
+
+      <h2>
+        Most <em>popular.</em>
+      </h2>
+
+      <p class="subtitle">
+        Browse available fish, check the price per kg
+        and add your selection to the bag.
+      </p>
+
+    </div>
+
+    <a href="#fish" class="view-all">
+      View all fish ↗
+    </a>
+
+  </div>
+
+  <!-- FILTERS AND SEARCH -->
+  <div class="filters">
+
+    <div class="pills" id="filters">
+
+      <button class="selected" data-filter="all">
+        All fish
+      </button>
+
+      <button data-filter="available">
+        Available now
+      </button>
+
+      <button data-filter="unavailable">
+        Unavailable
+      </button>
+
+    </div>
+
+    <input
+      id="search"
+      placeholder="⌕  Search fish..."
+      type="search"
+      aria-label="Search fish">
+
+  </div>
+
+  <!-- DYNAMIC FISH CARDS -->
+  <div class="fish-grid" id="fishGrid"></div>
+
+  <p class="fineprint">
+    Availability and prices may change during the day.
+    An order enquiry is not a confirmed order.
+    Our team will confirm stock, final price and delivery details.
+  </p>
+
+</section>
+
+<!-- SPECIAL SECTION -->
+<section class="special">
+
+  <div class="special-photo"></div>
+
+  <div class="special-copy">
+
+    <div class="kicker">
+      FRESHNESS, EVERY DAY
+    </div>
+
+    <h2>
+      Know what's fresh.<br>
+      <em>Order with confidence.</em>
+    </h2>
+
+    <p>
+      Our daily fish list makes it easier to check what's
+      in stock before you place an enquiry.
+      Unavailable fish remain visible so you can see
+      the full selection.
+    </p>
+
+    <a href="#fish" class="btn">
+      Check today's availability ↗
+    </a>
+
+  </div>
+
+</section>
+
+<!-- DELIVERY -->
+<section class="delivery section" id="delivery">
+
+  <div class="delivery-icon">
+    ⌖
+  </div>
+
+  <div>
+
+    <div class="kicker dark">
+      DELIVERY SUPPORT
+    </div>
+
+    <h2>
+      Chennai <em>&</em> Bangalore
+    </h2>
+
+    <p>
+      Contact the Mandaadi team to confirm delivery coverage,
+      available slots and today's fish selection.
+    </p>
+
+  </div>
+
+  <a
+    class="outline-btn"
+    href="https://wa.me/919972426009"
+    target="_blank"
+    rel="noopener">
+    Check delivery ↗
+  </a>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+
+  <div>
+
+    <div class="kicker">
+      MANDAADI SEAFOODS
+    </div>
+
+    <h2>
+      Freshness you <em>love.</em>
+    </h2>
+
+    <p>
+      Have a question about today's catch?
+      Our team is ready to help.
+    </p>
+
+  </div>
+
+  <div>
+
+    <a
+      class="btn"
+      href="https://wa.me/919972426009"
+      target="_blank"
+      rel="noopener">
+      Chat on WhatsApp ↗
+    </a>
+
+    <small>+91 99724 26009</small>
+
+  </div>
+
+</section>
+
 </main>
-<footer><a class="brand footbrand" href="#"><b class="logo">M</b><span><strong>MANDAADI</strong><small>FRESH SEAFOODS</small></span></a><p>Fresh • Quality • Authentic Seafood</p><small>© 2026 Mandaadi Seafoods • Website concept</small></footer>
-<div class="shade" id="shade"></div><aside class="drawer" id="drawer"><div class="drawer-head"><div><small>YOUR SELECTION</small><h3>Your bag <span id="drawerCount">0</span></h3></div><button id="bagClose">×</button></div><div id="bagItems" class="bag-items"></div><div class="drawer-bottom"><p>Sending an enquiry does not confirm your order. Mandaadi will confirm availability, price and delivery.</p><button class="btn full" id="sendOrder">Send order enquiry ↗</button></div></aside>
-<div class="admin-modal" id="adminModal"><div class="admin-shell"><div class="admin-top"><div><div class="kicker dark">MANDAADI MANAGEMENT</div><h2>Admin <em>dashboard.</em></h2></div><button id="adminClose">×</button></div><div class="admin-tabs"><button class="tab active" data-tab="overview">Overview</button><button class="tab" data-tab="inventory">Fish inventory</button><button class="tab" data-tab="orders">Orders</button></div><section class="admin-panel active" id="overviewPanel"><div class="metrics"><article><small>DAILY REVENUE</small><strong id="metricRevenue">₹0</strong><span>Delivered orders only</span></article><article><small>ORDERS TODAY</small><strong id="metricOrders">0</strong><span>All order enquiries</span></article><article><small>DELIVERED</small><strong id="metricDelivered">0</strong><span>Counted in revenue</span></article><article><small>AWAITING CONFIRMATION</small><strong id="metricPending">0</strong><span>Not counted as revenue</span></article></div><div class="admin-explain"><b>Revenue rule</b><p>Daily revenue includes only orders marked <strong>Delivered</strong>. Pending, Confirmed and Cancelled orders are excluded.</p></div><h3 class="subhead">Recent orders</h3><div id="recentOrders"></div></section><section class="admin-panel" id="inventoryPanel"><div class="panel-heading"><div><h3>Fish inventory</h3><p>Add fish, update prices and switch availability on or off.</p></div></div><form id="fishForm" class="fish-form"><input id="fishName" placeholder="Fish name" required><input id="fishPrice" type="number" min="1" placeholder="Price per kg (₹)" required><input id="fishImage" placeholder="Image URL (optional)"><button class="btn" type="submit">＋ Add fish</button></form><div id="inventoryList"></div></section><section class="admin-panel" id="ordersPanel"><div class="panel-heading"><div><h3>Order management</h3><p>Update order status as the team processes each enquiry.</p></div></div><div class="status-legend"><span class="s-pending">Pending</span><span class="s-confirmed">Confirmed</span><span class="s-delivered">Delivered</span><span class="s-cancelled">Cancelled</span></div><div id="ordersList"></div></section><div class="admin-disclaimer">Demo dashboard: data is saved in this browser using local storage. It is not connected to a secure shared database or real payment system.</div></div></div>
-<div class="toast" id="toast"></div><script src="app.js"></script>
-</body></html>
+
+<!-- FOOTER -->
+<footer>
+
+  <a class="brand footbrand" href="#">
+
+    <b class="logo">M</b>
+
+    <span>
+      <strong>MANDAADI</strong>
+      <small>FRESH SEAFOODS</small>
+    </span>
+
+  </a>
+
+  <p>
+    Fresh • Quality • Authentic Seafood
+  </p>
+
+  <small>
+    © 2026 Mandaadi Seafoods • Website concept
+  </small>
+
+</footer>
+
+<!-- SHOPPING BAG OVERLAY -->
+<div class="shade" id="shade"></div>
+
+<!-- SHOPPING BAG DRAWER -->
+<aside class="drawer" id="drawer">
+
+  <div class="drawer-head">
+
+    <div>
+      <small>YOUR SELECTION</small>
+
+      <h3>
+        Your bag <span id="drawerCount">0</span>
+      </h3>
+    </div>
+
+    <button id="bagClose" aria-label="Close shopping bag">
+      ×
+    </button>
+
+  </div>
+
+  <div id="bagItems" class="bag-items"></div>
+
+  <div class="drawer-bottom">
+
+    <p>
+      Sending an enquiry does not confirm your order.
+      Mandaadi will confirm availability, price and delivery.
+    </p>
+
+    <button class="btn full" id="sendOrder">
+      Send order enquiry ↗
+    </button>
+
+  </div>
+
+</aside>
+
+<!-- ADMIN DASHBOARD -->
+<div class="admin-modal" id="adminModal">
+
+  <div class="admin-shell">
+
+    <div class="admin-top">
+
+      <div>
+        <div class="kicker dark">
+          MANDAADI MANAGEMENT
+        </div>
+
+        <h2>
+          Admin <em>dashboard.</em>
+        </h2>
+      </div>
+
+      <button id="adminClose" aria-label="Close admin dashboard">
+        ×
+      </button>
+
+    </div>
+
+    <!-- ADMIN TABS -->
+    <div class="admin-tabs">
+
+      <button class="tab active" data-tab="overview">
+        Overview
+      </button>
+
+      <button class="tab" data-tab="inventory">
+        Fish inventory
+      </button>
+
+      <button class="tab" data-tab="orders">
+        Orders
+      </button>
+
+    </div>
+
+    <!-- OVERVIEW -->
+    <section
+      class="admin-panel active"
+      id="overviewPanel">
+
+      <div class="metrics">
+
+        <article>
+          <small>DAILY REVENUE</small>
+          <strong id="metricRevenue">₹0</strong>
+          <span>Delivered orders only</span>
+        </article>
+
+        <article>
+          <small>ORDERS TODAY</small>
+          <strong id="metricOrders">0</strong>
+          <span>All order enquiries</span>
+        </article>
+
+        <article>
+          <small>DELIVERED</small>
+          <strong id="metricDelivered">0</strong>
+          <span>Counted in revenue</span>
+        </article>
+
+        <article>
+          <small>AWAITING CONFIRMATION</small>
+          <strong id="metricPending">0</strong>
+          <span>Not counted as revenue</span>
+        </article>
+
+      </div>
+
+      <div class="admin-explain">
+
+        <b>Revenue rule</b>
+
+        <p>
+          Daily revenue includes only orders marked
+          <strong>Delivered</strong>.
+          Pending, Confirmed and Cancelled orders are excluded.
+        </p>
+
+      </div>
+
+      <h3 class="subhead">
+        Recent orders
+      </h3>
+
+      <div id="recentOrders"></div>
+
+    </section>
+
+    <!-- INVENTORY -->
+    <section
+      class="admin-panel"
+      id="inventoryPanel">
+
+      <div class="panel-heading">
+
+        <div>
+          <h3>Fish inventory</h3>
+
+          <p>
+            Add fish, update prices and switch availability on or off.
+          </p>
+        </div>
+
+      </div>
+
+      <form id="fishForm" class="fish-form">
+
+        <input
+          id="fishName"
+          placeholder="Fish name"
+          required>
+
+        <input
+          id="fishPrice"
+          type="number"
+          min="1"
+          placeholder="Price per kg (₹)"
+          required>
+
+        <input
+          id="fishImage"
+          type="url"
+          placeholder="Image URL (optional)">
+
+        <button class="btn" type="submit">
+          ＋ Add fish
+        </button>
+
+      </form>
+
+      <div id="inventoryList"></div>
+
+    </section>
+
+    <!-- ORDERS -->
+    <section
+      class="admin-panel"
+      id="ordersPanel">
+
+      <div class="panel-heading">
+
+        <div>
+          <h3>Order management</h3>
+
+          <p>
+            Update order status as the team processes each enquiry.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="status-legend">
+
+        <span class="s-pending">Pending</span>
+        <span class="s-confirmed">Confirmed</span>
+        <span class="s-delivered">Delivered</span>
+        <span class="s-cancelled">Cancelled</span>
+
+      </div>
+
+      <div id="ordersList"></div>
+
+    </section>
+
+    <div class="admin-disclaimer">
+
+      Demo dashboard: data is saved in this browser using
+      local storage. It is not connected to a secure shared
+      database or real payment system.
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- TOAST NOTIFICATION -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- DEPARTMENT IMAGE FALLBACK -->
+<script>
+document.querySelectorAll(".department-card img").forEach(img => {
+  img.addEventListener("error", function () {
+    this.onerror = null;
+    this.style.display = "none";
+    this.parentElement.classList.add("image-fallback");
+  });
+});
+</script>
+
+<!-- APPLICATION JAVASCRIPT -->
+<script src="app.js"></script>
+
+</body>
+</html>
