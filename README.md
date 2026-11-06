@@ -20,3 +20,4 @@ Extract the ZIP and open `index.html` in a modern browser. No build step is requ
 
 ## Important limitations
 This is a front-end prototype. Demo data is stored in the current browser's localStorage and is not shared between devices or staff. There is no secure login, backend, database, payment gateway, inventory synchronisation or live delivery tracking. Before production, connect a secure backend/database and replace sample fish, prices, images, phone and business policies with Mandaadi-approved details. Product photos are loaded from Unsplash and require internet access.
+# mandaadi-seafoods
